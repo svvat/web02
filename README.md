@@ -30,3 +30,7 @@ If invalid  webservice is requested error returned
 ## publish image on dockerhub
 #### to push to dockerhub repository
   docker push vvatess/web02:tagname
+
+#### deploy to kubernetes
+
+  kubectl create deployment vvatess-webo2 --image=registry.hub.docker.com/vvatess/web02:latest
